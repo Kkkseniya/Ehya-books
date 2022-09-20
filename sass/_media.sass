@@ -1,0 +1,860 @@
+@media (max-width: 1200px)
+  .container, .history-container
+    max-width: 960px
+  .book
+    &-info
+      max-width: 500px
+  .recommendation
+    width: 68%
+    &-cards
+      grid-column-gap: 3%
+    &-item
+      padding-left: 8px
+      padding-right: 6px
+    &-info
+      margin-left: 10px
+  .top
+    width: 30%
+    &-info
+      padding: 0 0 0 14px
+      &__price
+        margin-bottom: 10px
+      &__title
+        margin-bottom: 5px
+    &-line
+      max-width: 272px
+      &--long
+        max-width: 87%
+    &-item
+      align-items: center
+  .cards
+    &-wrapper
+      padding-left: 8px
+      padding-right: 8px
+  .section-container
+    max-width: 95%
+    // max-width: 1150px
+    // max-width: 960px
+    min-height: 280px
+  .swiper
+    &-slider
+      max-width: 95%
+  .slider
+    &__button
+      top: 40%
+    &__image
+      margin-bottom: 34px
+    &__item
+      margin-right: 18px
+      &:last-child
+        margin-right: 0
+    &__title
+      min-height: 64px
+  .item-container
+    padding-right: 5px
+  .unreleased
+    &__button
+      &--prev
+        left: 86%
+  .blog
+    &-content
+      flex-direction: column
+      &__main
+        max-width: 100%
+        margin-bottom: 10px
+        margin-right: 0
+  .main-info-container
+    padding-left: 0
+    padding-right: 0
+  .registration
+    &-wrapper
+      max-width: 880px
+  .subscribe
+    width: 422px
+@media (max-width: 992px)
+  .container, .history-container
+    width: 92%
+  .book
+    padding-top: 36px
+    &-wrapper
+      min-height: 560px
+    &-info
+      flex-basis: 48%
+      max-width: 400px
+      margin-bottom: 36px
+      &__title
+        max-width: 420px
+        font-size: 32px
+        line-height: 40px
+      &__author
+        font-size: 16px
+        line-height: 24px
+      &__annotation
+        font-size: 16px
+        line-height: 23px
+    &-button
+      min-width: 177px
+      &--buy
+        margin-right: 15px
+        font-size: 14px
+        line-height: 20px
+      &--read
+        font-size: 14px
+        line-height: 20px
+  .image
+    &-block
+      flex-basis: 48%
+      min-width: unset
+      min-height: 560px
+  .offers
+    padding-top: 80px
+    &-wrapper
+      flex-direction: column
+    &__title
+      text-align: center
+      margin-bottom: 48px
+  .recommendation
+    width: 100%
+    padding-bottom: 56px
+    &-cards
+      grid-column-gap: 4.3%
+    &-item
+      padding-left: 11px
+      padding-right: 22px
+  .top
+    width: 100%
+    &-item
+      max-width: 50%
+    &-image
+      width: 160px
+      height: 238px
+    &-info
+      padding: 11px 0 8px 27px
+      &__price
+        margin-bottom: 22px
+      &__title
+        margin-bottom: 15px
+    &-line
+      max-width: 80%
+      &--long
+        // width: 92%
+        max-width: 572px
+  .item-container
+    max-width: 572px
+    flex-wrap: wrap
+    justify-content: space-evenly
+    margin: auto
+    padding-right: 0
+  .slider
+    padding-bottom: 140px
+    &__item
+      &:nth-child(-n+2)
+        margin-bottom: 18px
+      &:nth-child(2)
+        margin-right: 0
+    &__button
+      top: 110%
+      &--next
+        right: 40%
+      &--prev
+        left: 40%
+    &__title
+      min-height: unset
+  .unreleased
+    &__title
+      font-size: 32px
+      line-height: 40px
+    &__image
+      width: 160px
+      height: 238px
+    &__button
+      transform: translateY(-620%)
+      &--prev
+        left: 83%
+  .video
+    &-block
+      max-width: 423px
+      flex-basis: 48%
+      &:last-child
+        display: none
+    &-play
+      height: 230px
+  .history
+    &-top
+      flex-direction: column
+      align-items: center
+      padding-right: 0
+      margin-bottom: 22px
+    &__title
+      margin-bottom: 20px
+    &__text
+      text-align: center
+      max-width: 60%
+  .logo-wrapper
+    grid-template-columns: repeat(4, minmax(max-content, 1fr))
+  .registration
+    &-wrapper
+      flex-direction: column
+      align-items: start
+      max-width: 85%
+    &__title
+      margin-bottom: 14px
+  .footer
+    &-wrapper
+      grid-template-columns: repeat(3, 25%)
+      grid-column-gap: 10%
+      grid-row-gap: 40px
+    &__products
+      grid-row: 1 / 2
+    &__services
+      grid-row: 1 / 2
+    &__company
+      grid-row: 1 / 2
+    &__more
+      grid-row: 2 / 3
+    &-bottom
+      display: none
+  .ehya-block
+    grid-row: 3 / 4
+    grid-column: span 3
+    justify-self: center
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    &-icons
+      min-width: 185px
+    &__text
+      max-width: 263px
+      text-align: center
+  .modal
+    &__dialog
+      width: 92%
+@media (max-width: 768px)
+  .container
+    width: 88%
+  body
+    padding-top: 99px
+  .menu
+    &-button
+      display: flex
+      width: 22px
+      height: 18px
+      padding: 0
+      align-items: center
+      justify-content: space-between
+      flex-direction: column
+      border: none
+      background-color: #fff
+      cursor: pointer
+      &__line
+        width: 22px
+        height: 2px
+        background-color: #3A4C66
+  .navbar
+    &-button
+      &--mobile
+        color: $light
+        border-color: $light
+        background-color: $blue
+    &-right
+      display: none
+      &--visible
+        display: block
+        position: fixed
+        width: 100%
+        left: 0
+        right: 0
+        bottom: 0
+        top: 98px
+        background: #B3BAC5
+        overflow-y: scroll
+    &--mobile
+      &_fixed
+        position: fixed
+        top: 0
+        right: 0
+        left: 0
+        z-index: 99
+        background-color: $light
+    &-menu
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: start
+      margin-top: 35px
+      &__item
+        margin-bottom: 20px
+        margin-right: 0
+  .book
+    &-wrapper
+      flex-direction: column
+    &-info
+      margin-right: 0
+      max-width: 100%
+      text-align: center
+      &__title
+        text-align: center
+        max-width: 70%
+        margin: 0 auto 28px
+    &-buttons
+      max-width: 485px
+      margin: auto
+    &-button
+      min-width: 230px
+  .image
+    &-block
+      max-width: 100%
+      min-height: 520px
+  .recommendation
+    &-cards
+      grid-auto-rows: auto
+    &-item
+      flex-direction: column
+      padding-bottom: 32px
+      &:nth-child(1)
+        grid-column: span 2
+      &:nth-child(n+2)
+        display: none
+    &-info
+      max-width: 100%
+      margin-left: 0
+      text-align: center
+      &__title
+        margin-top: 19px
+    &-action
+      max-width: 154px
+      margin: auto
+    &-image
+      margin-top: -41px
+  .top
+    &-item
+      max-width: 400px
+    &-line
+      &--long
+        max-width: 88%
+  .offers
+    &__title
+      &-recommendation
+        margin-bottom: 89px
+      &-top
+        margin-bottom: 36px
+  .slider
+    &__item
+      width: 236px
+      padding-top: 30px
+    &__title
+      min-height: 64px
+  .unreleased
+    &__button
+      &--prev
+        left: 76%
+  .video
+    height: 320px
+    &-play
+      height: 168px
+  .history
+    &__text
+      max-width: 80%
+  .blog
+    &__link
+      display: none
+      &--bottom
+        display: block
+    &-content
+      &__info
+        margin-left: 23px
+  .image
+    &-small
+      width: 234px
+  .small
+    &-title
+      font-size: 20px
+      margin-top: 8px
+      margin-bottom: 11px
+  .modal
+    &__dialog
+      padding: 33px 73px
+@media (max-width: 576px)
+  .container
+    width: 88%
+  body
+    padding-top: 63px
+  .navbar
+    &-wrapper
+      padding: 17px 0
+    &-right
+      &--visible
+        top: 62px
+  .book
+    &-buttons
+      flex-direction: column
+    &-button
+      &--buy
+        margin-right: 0
+        margin-bottom: 12px
+  .slider
+    &__item
+      height: 182px
+      width: 195px
+      padding-top: 20px
+      padding-bottom: 20px
+    &__title
+      font-family: Roboto Condensed
+      font-size: 18px
+      min-height: unset
+    &__info
+      font-size: 14px
+  .unreleased
+    &__image
+      margin: auto
+      width: 206px
+      height: 300px
+    &-wrapper
+      padding-bottom: 88px
+    &__button
+      transform: translateY(-100%)
+      &--prev
+        left: 35%
+      &--next
+        right: 35%
+    &__title
+      text-align: center
+  .history
+    &__main-video
+      margin-bottom: 20px
+  .video
+    height: 280px
+    &-icon
+      height: 80px
+      width: 80px
+  .logo
+    &-wrapper
+      grid-template-columns: repeat(2, minmax(max-content, 1fr))
+    &-icon
+      &:nth-child(n+7)
+        display: none
+  .partners
+    padding-bottom: 56px
+  .image
+    &-small
+      width: 200px
+      height: 150px
+  .small
+    &-title
+      font-size: 16px
+  .blog
+    &-content
+      &__data
+        font-size: 12px
+      &__read
+        font-size: 14px
+  .subscribe
+    width: 345px
+    &__button
+      min-width: 126px
+  .footer
+    &-wrapper
+      grid-template-columns: repeat(2, 46%)
+    &__products
+      grid-row: 1 / 2
+    &__services
+      grid-row: 1 / 2
+    &__company
+      grid-row: 2 / 3
+    &__more
+      grid-row: 2 / 3
+  .ehya-block
+    grid-row: 3 / 4
+    grid-column: span 2
+  .modal
+    &__dialog
+      width: 88%
+      padding: 33px 65px
+    &__title
+      font-size: 16px
+      margin-bottom: 5px
+    &__input
+      font-size: 14px
+  .navbar-button
+    font-size: 14px
+@media (max-width: 480px)
+  .book
+    &-info
+      &__title
+        margin-bottom: 24px
+      &__author
+        margin-bottom: 35px
+      &__annotation
+        margin-bottom: 18px
+        max-height: 180px
+    &-button
+      min-width: 176px
+      min-height: 39px
+      font-size: 16px
+      line-height: 22px
+      padding-top: 9px
+      padding-bottom: 9px
+      &--read
+        padding-top: 7px
+        padding-bottom: 5px
+  .image
+    &-block
+      min-height: 332px
+      &__image
+        margin-top: 21px
+        width: 172px
+        height: 239px
+  .offers
+    padding-top: 57px
+    padding-bottom: 57px
+    &__title
+      font-size: 28px
+      line-height: 36px
+      &-recommendation
+        margin-bottom: 72px
+      &-top
+        margin-bottom: 36px
+  .recommendation
+    &-item
+      padding-left: 22px
+    &-image
+      width: 96px
+      height: 137px
+      margin-top: -24px
+      border-radius: 4.6px
+    &-icon
+      margin-right: 0
+    &-button
+      width: 115px
+      &--small
+        width: 101px
+    &-cards
+      padding-bottom: 24px
+    &-info
+      &__title
+        font-size: 20px
+        line-height: 24px
+        margin-bottom: 12px
+      &__genre
+        font-size: 14px
+        line-height:
+        margin-bottom: 18px
+      &__price
+        font-size: 16px
+        line-height: 20px
+        margin-bottom: 20px
+        padding-right: 9px
+    &-more
+      min-height: 48px
+      padding-top: 14px
+      padding-bottom: 14px
+      &__link
+        text-transform: none
+  .top
+    &-cards
+      min-height: min-content
+    &-item
+      max-width: 226px
+      min-height: 142px
+    &-image
+      width: 95px
+      height: 142px
+    &-info
+      padding: 0 0 0 15px
+      &__title
+        font-family: Roboto Condensed
+        font-size: 16px
+        line-height: 24px
+        margin-bottom: 12px
+      &__price
+        font-size: 20px
+        line-height: 24px
+        margin-bottom: 14px
+    &__best-books
+      padding: 20px 0
+    &-line
+      &--long
+        margin-bottom: 54px
+  .cards
+    &-wrapper
+      padding: 25px 43px 40px 11px
+  .slider
+    padding-bottom: 60px
+    &__item
+      min-height: 182px
+      width: 48%
+      // width: 45%
+      // 142px
+      padding-top: 20px
+      padding-bottom: 20px
+      margin-right: 10px
+      &:nth-child(-n+2)
+        margin-bottom: 10px
+    &__image
+      height: 36px
+      width: 36px
+      margin-bottom: 12px
+    &__title
+      font-family: Roboto Condensed
+      min-height: 40px
+      font-size: 16px
+      line-height: 20px
+      margin-bottom: 11px
+    &__info
+      font-size: 12px
+      line-height: 20px
+    &__button
+      height: 48px
+      width: 48px
+      top: 95%
+      &--next
+        right: 37%
+      &--prev
+        left: 37%
+  .item-container
+    min-height: 374px
+    justify-content: space-between
+  .section-container
+    min-height: 455px
+    // margin: 0 5px
+  .unreleased
+    padding-top: 25px
+    padding-bottom: 46px
+    &__title
+      font-family: Roboto Condensed
+      font-size: 28px
+      line-height: 36px
+      margin-bottom: -80px
+    &__button
+      height: 48px
+      width: 48px
+      &--next
+        right: 30%
+      &--prev
+        left: 30%
+  .arrow-next, .arrow-prev
+    transform: translateY(100%)
+  .history
+    padding-top: 17px
+    padding-bottom: 41px
+    &-container
+      width: 94%
+    &-top
+      margin-bottom: 30px
+    &__text
+      text-align: center
+      max-width: 280px
+      font-size: 18px
+      line-height: 25px
+    &__title
+      font-family: Roboto Condensed
+      font-size: 28px
+      line-height: 36px
+      margin-bottom: 24px
+  .video
+    height: 210px
+    &-play
+      height: 138px
+    &-block
+      flex-basis: 47%
+    &-text
+      text-align: center
+      &__name
+        font-size: 16px
+        line-height: 20px
+      &__description
+        margin-top: 9px
+        font-size: 12px
+        line-height: 20px
+    &-bottom
+      flex-direction: column
+      align-items: center
+    &-bookmark
+      width: 10px
+      height: 14px
+      margin-top: 15px
+    &-icon
+      height: 56px
+      width: 56px
+      right: 41%
+    &-bottom
+      padding-top: 15px
+  .partners
+    padding-top: 37px
+    &__title
+      max-width: 278px
+      font-size: 24px
+      line-height: 30px
+      margin: 0 auto 29px
+  .logo
+    &-wrapper
+      grid-row-gap: 19px
+      padding-left: 14px
+      padding-right: 11px
+  .blog
+    padding-top: 56px
+    padding-bottom: 47px
+    &-top
+      margin-bottom: 48px
+    &__title
+      font-size: 28px
+      line-height: 36px
+      margin: auto
+    &__link
+      &--bottom
+        min-width: unset
+        max-width: 159px
+        font-size: 14px
+        line-height: 20px
+        letter-spacing: 0.175px
+    &-content
+      &__title
+        font-size: 16px
+        line-height: 20px
+        margin-bottom: 10px
+      &__text
+        font-size: 12px
+        line-height: 24px
+        margin-top: 10px
+        margin-bottom: 0px
+      &__main
+        margin-bottom: 27px
+      &__data
+        font-size: 10px
+        line-height: 20px
+      &__info
+        margin-left: 20px
+      &__read
+        font-size: 10px
+        line-height: 20px
+        letter-spacing: 0.125px
+      &__small
+        margin-bottom: 28px
+  .image
+    &-main
+      width: 100%
+      height: 120px
+    &-small
+      margin-top: 3px
+      width: 90px
+      height: 90px
+      border-radius: 4.816px
+  .small-title
+    font-size: 14px
+    line-height: 20px
+    letter-spacing: 0.175px
+    margin-top: 6px
+    margin-bottom: 3px
+  .main-info-container
+    padding-top: 15px
+  .registration
+    padding-bottom: 48px
+    &-container
+      width: 100%
+      border-radius: unset
+      // background-image: none
+    &-wrapper
+      width: 88%
+      padding-top: 28px
+      padding-bottom: 27px
+    &__title
+      max-width: 210px
+      font-size: 28px
+      line-height: 36px
+  .subscribe
+    width: 100%
+    height: 112px
+    background-color: $light
+    border-radius: 8px
+    &__button
+      width: 92%
+      max-height: 42px
+      padding-top: 10px
+      padding-bottom: 10px
+      top: 58px
+      left: 11px
+      right: 11px
+      bottom: 12px
+    &__input
+      height: 52px
+      padding-right: 15px
+      border: none
+    &__icon
+      top: 21px
+  .footer
+    padding-bottom: 64px
+    &__title
+      font-size: 16px
+      line-height: 22px
+      margin-bottom: 20px
+    &__item
+      font-size: 14px
+      line-height: 20px
+      margin-bottom: 15px
+    &-wrapper
+      justify-content: space-between
+      grid-template-columns: minmax(45%, 1fr) minmax(45%, 1fr)
+      grid-column-gap: 5%
+      grid-row-gap: 23px
+      // padding-left: 5px
+    &__company, &__products
+      padding-left: 5px
+  .ehya-block
+    padding-top: 5px
+    &__text
+      margin-top: 15px
+      padding-right: 7px
+      margin-bottom: 13px
+  .modal
+    &__dialog
+      padding: 33px 32px
+  #email-error
+    top: -27px
+    // 34
+    font-size: 12px
+    left: 3px
+  .message
+    &-wrapper
+      padding-bottom: 112px
+    &-send
+      font-size: 16px
+      line-height: 20px
+    &-info
+      font-size: 14px
+      line-height: 20px
+    &-back
+      font-size: 16px
+      line-height: 20px
+      max-width: 120px
+      padding: 9px 0px
+@media (max-width: 320px)
+  .book
+    &-info
+      &__title
+        max-width: 90%
+  .cards
+    &-wrapper
+      align-items: start
+  .slider
+    &__item
+      width: 140px
+      padding-right: 10px
+      padding-left: 13px
+    &__info
+      max-width: 99px
+      margin-left: 6px
+      margin-right: 0
+    &__button
+      &--next
+        right: 31%
+      &--prev
+        left: 31%
+  .item-container
+    min-width: 290px
+  .swiper
+    &-slider
+      min-width: 290px
+  .partners
+    &__title
+      max-width: 278px

@@ -1,0 +1,52 @@
+.unreleased
+  padding-top: 32px
+  padding-bottom: 80px
+  background-color: $title-color
+  &-wrapper
+    padding-top: 122px
+  &__title
+    font-family: Roboto Condensed
+    font-style: normal
+    font-weight: bold
+    font-size: 36px
+    line-height: 48px
+    letter-spacing: 0.2px
+    color: $light
+    margin-bottom: -60px
+  &__image
+    display: block
+    width: 204px
+    height: 298px
+    border-radius: 8px
+    box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.08)
+  &__button
+    position: absolute
+    // top: 41%
+    transform: translateY(-412px)
+    // 412
+    width: 54px
+    height: 56px
+    text-align: center
+    background-repeat: no-repeat
+    background-position: center
+    border: none
+    background-color: transparent
+    border-radius: 2000px
+    border: 2px solid #FFFFFF
+    cursor: pointer
+    z-index: 99
+    fill: $light
+    &--prev
+      left: 88.3%
+      // 1007px
+    &--next
+      right: 0px
+    &-disable
+      border: 2px solid #5A7184
+      fill: #5A7184
+.arrow
+  &-next
+    transform: translateY(126%)   
+  &-prev
+    transform: translateY(126%) 
+

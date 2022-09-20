@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ehya - Книжный магазин</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Condensed:wght@700&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+
+<body>
+  <header class="navbar navbar--mobile_fixed">
+    <div class="container">
+      <div class="navbar-wrapper">
+        <a href="./index.html" class="navbar-logo">
+          <img src="img/Logo.svg" alt="Logo: Ehya" class="navbar-logo__img hover-image">
+        </a>
+        <div class="navbar-right">
+          <ul class="navbar-menu">
+            <li class="navbar-menu__item"><a href="#" class="navbar-menu__link hover-link">Рекомендации</a></li>
+            <li class="navbar-menu__item"><a href="#" class="navbar-menu__link hover-link">Книги</a></li>
+            <li class="navbar-menu__item"><a href="#" class="navbar-menu__link hover-link">Блог</a></li>
+          </ul>
+          <button data-toggle="modal" class="navbar-button hover-buttonwhite">Получить</button>
+        </div>
+
+        <div class="navbar-right navbar-right-mobile">
+          <div class="container">
+            <ul class="navbar-menu">
+              <li class="navbar-menu__item"><a href="#" class="navbar-menu__link hover-link">Рекомендации</a></li>
+              <li class="navbar-menu__item"><a href="#" class="navbar-menu__link hover-link">Книги</a></li>
+              <li class="navbar-menu__item"><a href="#" class="navbar-menu__link hover-link">Блог</a></li>
+              <li><button data-toggle="modal" class="navbar-button hover-buttonwhite">Получить</button></li>
+            </ul>
+          </div>
+        </div>
+
+        <button class="menu-button navbar__menu-button">
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+        </button>
+      </div>
+      <!-- /.navbar-wrapper -->
+    </div>
+  </header>
+  <!-- /. navbar -->
+
+  <section class="thanks">
+    <div class="container">
+      <div class="message-wrapper">
+        <h1 class="message-send">Ваше сообщение отправлено!</h1>
+        <p class="message-info">Наш менеджер свяжется с вами в течение 5 минут</p>
+        <a href="./index.html" class="message-back hover-buttonwhite">Назад</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="ehya-block">
+          <a href="./index.html" class="ehya-block__logo">
+            <img src="img/Logo.svg" alt="Logo: Ehya" class="ehya-block__img hover-image">
+          </a>
+          <p class="ehya-block__text">Создайте современный и креативный веб-сайт с crealand</p>
+          <div class="ehya-block-icons">
+            <a href="https://www.google.com" target="_blank" class="icon-link">
+              <img src="img/google-icon.svg" alt="Footer icon" class="hover-image">
+            </a>
+            <a href="https://twitter.com" target="_blank" class="icon-link">
+              <img src="img/twitter-icon.svg" alt="Footer icon" class="hover-image">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="icon-link">
+              <img src="img/instagram-icon.svg" alt="Footer icon" class="hover-image">
+            </a>
+            <a href="https://ru.linkedin.com" target="_blank" class="icon-link">
+              <img src="img/linkedin-icon.svg" alt="Footer icon" class="hover-image">
+            </a>
+          </div>
+        </div>
+        <!-- /.ehya-block -->
+
+        <div class="footer__content footer__products">
+          <h3 class="footer__title">Продукт</h3>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Лэндинг</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Функции</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Документация</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Скидки</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Расценки</a></li>
+          </ul>
+        </div>
+        <!-- /.footer__products -->
+
+        <div class="footer__content footer__services">
+          <h3 class="footer__title">Сервисы</h3>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Документация</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Дизайн</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Темы</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Илюстрации</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">UI Kit</a></li>
+          </ul>
+        </div>
+        <!-- /.footer__services -->
+
+        <div class="footer__content footer__company">
+          <h3 class="footer__title">Компания</h3>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link hover-link">О нас</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Условия</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Privacy Policy</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Careers</a></li>
+          </ul>
+        </div>
+        <!-- /.footer__company -->
+
+        <div class="footer__content footer__more">
+          <h3 class="footer__title">Еще...</h3>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Документация</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Лицензия</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Изменения</a></li>
+          </ul>
+        </div>
+        <!-- /.footer__more -->
+      </div>
+      <!-- /.footer-wrapper -->
+      <div class="footer-bottom">
+        <img src="img/footer-bottom-icon.svg" alt="Bottom icon" class="footer-bottom__icon">
+        <div class="footer-bottom__text">Copyright © 2019. Crafted with love.</div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.footer -->
+  <a class="button-up" href="#"><img src="img/up-button.svg" alt="up button" class="up-icon"></a>
+
+  <div class="modal">
+    <div class="modal__overlay"></div>
+    <!-- /.modal__overlay -->
+    <div class="modal__dialog">
+      <a href="#" class="modal__close">
+        <img src="img/close.svg" alt="icon: close">
+      </a>
+      <h3 class="modal__title">Оформление</h3>
+      <form action="./thankyou.html" class="modal__form form">
+        <input type="text" class="input modal__input" placeholder="Имя*" name="name" minlength="2" required>
+        <input type="tel" class="input modal__input" placeholder="Телефон*" name="phone" id="phoneModal" minlength="18"
+          required>
+        <input type="email" class="input modal__input" placeholder="Email*" name="emailModal" required>
+        <div class="modal__form-wrapper">
+          <button class="button navbar-button hover-buttonwhite" type="submit">Отправить</button>
+          <span class="modal__info">* Required Fields</span>
+        </div>
+      </form>
+    </div>
+    <!-- /.modal__dialog -->
+  </div>
+  <!-- /.modal -->
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.mask.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

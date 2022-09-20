@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ehya - Книжный магазин</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Condensed:wght@700&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+
+<body>
+  <header class="navbar navbar--mobile_fixed">
+    <div class="container">
+      <div class="navbar-wrapper">
+        <a href="./index.html" class="navbar-logo">
+          <img src="img/Logo.svg" alt="Logo: Ehya" class="navbar-logo__img hover-image">
+        </a>
+        <div class="navbar-right">
+          <ul class="navbar-menu">
+            <li class="navbar-menu__item"><a href="#" class="navbar-menu__link hover-link">Рекомендации</a></li>
+            <li class="navbar-menu__item"><a href="#" class="navbar-menu__link hover-link">Книги</a></li>
+            <li class="navbar-menu__item"><a href="#" class="navbar-menu__link hover-link">Блог</a></li>
+          </ul>
+          <button data-toggle="modal" class="navbar-button hover-buttonwhite">Получить</button>
+        </div>
+
+        <div class="navbar-right navbar-right-mobile">
+          <div class="container">
+            <ul class="navbar-menu">
+              <li class="navbar-menu__item"><a href="#" class="navbar-menu__link hover-link">Рекомендации</a></li>
+              <li class="navbar-menu__item"><a href="#" class="navbar-menu__link hover-link">Книги</a></li>
+              <li class="navbar-menu__item"><a href="#" class="navbar-menu__link hover-link">Блог</a></li>
+              <li><button data-toggle="modal"
+                  class="navbar-button navbar-button--mobile hover-buttonwhite">Получить</button></li>
+            </ul>
+          </div>
+        </div>
+
+        <button class="menu-button navbar__menu-button">
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+        </button>
+      </div>
+      <!-- /.navbar-wrapper -->
+    </div>
+  </header>
+  <!-- /. navbar -->
+
+  <section class="book">
+    <div class="container">
+      <div class="book-wrapper">
+        <div class="book-info">
+          <h1 class="book-info__title">
+            <span class="book-title book-title--yellow">Design Theory:</span><br>
+            <span class="book-title book-title--ordinary">The Psychology of
+              Graphic Design Pricing</span>
+          </h1>
+          <!-- /. book-info__title -->
+          <span class="book-info__author">КНИГА МИШЕЛЯ ЯНГА</span>
+          <p class="book-info__annotation">Спустя 15 лет я управляю собственной студией, выполнив тысячи проектов для
+            крупных клиентов. Теперь я делюсь своими золотыми стратегиями ценообразования на творческую работу.
+          </p>
+          <div class="book-buttons">
+            <button data-toggle="modal" class="book-button book-button--buy hover-buttonblue">КУПИТЬ СЕЙЧАС</button>
+            <a href="#" class="book-button book-button--read hover-buttonwhite">ЧИТАТЬ ДЕМО</a>
+          </div>
+        </div>
+        <!-- /.book-info -->
+        <div class="image-block">
+          <img src="img/main-book.png" alt="Book image" class="image-block__image">
+        </div>
+        <!-- /.book-image -->
+      </div>
+      <!-- /. book-wrapper -->
+    </div>
+  </section>
+  <!-- /.book -->
+
+  <section class="offers">
+    <div class="container">
+      <div class="offers-wrapper">
+        <div class="recommendation">
+          <h2 class="offers__title offers__title-recommendation">Рекомендации</h2>
+          <div class="recommendation-cards">
+
+            <!-- item-1 -->
+            <div class="recommendation-item">
+              <img class="recommendation-image" src="img/recommendation-1.png" alt="Recommended book">
+              <!-- /. recommendation-image -->
+              <div class="recommendation-info">
+                <h3 class="recommendation-info__title">The World of Abstract Art</h3>
+                <h4 class="recommendation-info__genre">Art & Design</h4>
+                <span class="recommendation-info__price">$25.00</span>
+                <div class="recommendation-action">
+                  <button data-toggle="modal" class="recommendation-button hover-button">Купить</button>
+                  <div class="recommendation-icon">
+                    <svg width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+                      <path class="heart-icon"
+                        d="M17.2422 2.46484C15.3086 0.8125 12.4609 1.12891 10.668 2.95703L10 3.66016L9.29688 2.95703C7.53906 1.12891 4.65625 0.8125 2.72266 2.46484C0.507812 4.36328 0.402344 7.73828 2.37109 9.77734L9.19141 16.8086C9.61328 17.2656 10.3516 17.2656 10.7734 16.8086L17.5938 9.77734C19.5625 7.73828 19.457 4.36328 17.2422 2.46484Z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <!-- /. recommendation-info -->
+            </div>
+            <!-- /. recommendation-item -->
+
+            <!-- item-2 -->
+            <div class="recommendation-item">
+              <img class="recommendation-image" src="img/recommendation-2.png" alt="Recommended book">
+              <!-- /. recommendation-image -->
+              <div class="recommendation-info">
+                <h3 class="recommendation-info__title">Educated : a&nbsp;Memoir</h3>
+                <h4 class="recommendation-info__genre">Education</h4>
+                <span class="recommendation-info__price">$28.00</span>
+                <div class="recommendation-action">
+                  <button data-toggle="modal" class="recommendation-button hover-button">Купить</button>
+                  <div class="recommendation-icon">
+                    <svg width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+                      <path class="heart-icon"
+                        d="M17.2422 2.46484C15.3086 0.8125 12.4609 1.12891 10.668 2.95703L10 3.66016L9.29688 2.95703C7.53906 1.12891 4.65625 0.8125 2.72266 2.46484C0.507812 4.36328 0.402344 7.73828 2.37109 9.77734L9.19141 16.8086C9.61328 17.2656 10.3516 17.2656 10.7734 16.8086L17.5938 9.77734C19.5625 7.73828 19.457 4.36328 17.2422 2.46484Z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <!-- /. recommendation-info -->
+            </div>
+            <!-- /. recommendation-item -->
+
+            <!-- item-3 -->
+            <div class="recommendation-item">
+              <img class="recommendation-image" src="img/recommendation-3.png" alt="Recommended book">
+              <!-- /. recommendation-image -->
+              <div class="recommendation-info">
+                <h3 class="recommendation-info__title">The Blue Flowers Ray…</h3>
+                <h4 class="recommendation-info__genre">Novel</h4>
+                <span class="recommendation-info__price">$19.50</span>
+                <div class="recommendation-action">
+                  <button data-toggle="modal" class="recommendation-button hover-button">Купить</button>
+                  <div class="recommendation-icon">
+                    <svg width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+                      <path class="heart-icon"
+                        d="M17.2422 2.46484C15.3086 0.8125 12.4609 1.12891 10.668 2.95703L10 3.66016L9.29688 2.95703C7.53906 1.12891 4.65625 0.8125 2.72266 2.46484C0.507812 4.36328 0.402344 7.73828 2.37109 9.77734L9.19141 16.8086C9.61328 17.2656 10.3516 17.2656 10.7734 16.8086L17.5938 9.77734C19.5625 7.73828 19.457 4.36328 17.2422 2.46484Z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <!-- /. recommendation-info -->
+            </div>
+            <!-- /. recommendation-item -->
+
+            <!-- item-4 -->
+            <div class="recommendation-item">
+              <img class="recommendation-image" src="img/recommendation-4.png" alt="Recommended book">
+              <!-- /. recommendation-image -->
+              <div class="recommendation-info">
+                <h3 class="recommendation-info__title">There There :
+                  a Novel by TO</h3>
+                <h4 class="recommendation-info__genre">Novel</h4>
+                <span class="recommendation-info__price">$20.00</span>
+                <div class="recommendation-action">
+                  <button data-toggle="modal" class="recommendation-button hover-button">Купить</button>
+                  <div class="recommendation-icon">
+                    <svg width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+                      <path class="heart-icon"
+                        d="M17.2422 2.46484C15.3086 0.8125 12.4609 1.12891 10.668 2.95703L10 3.66016L9.29688 2.95703C7.53906 1.12891 4.65625 0.8125 2.72266 2.46484C0.507812 4.36328 0.402344 7.73828 2.37109 9.77734L9.19141 16.8086C9.61328 17.2656 10.3516 17.2656 10.7734 16.8086L17.5938 9.77734C19.5625 7.73828 19.457 4.36328 17.2422 2.46484Z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <!-- /. recommendation-info -->
+            </div>
+            <!-- /. recommendation-item -->
+
+            <!-- item-5 -->
+            <div class="recommendation-item">
+              <img class="recommendation-image" src="img/recommendation-5.png" alt="Recommended book">
+              <!-- /. recommendation-image -->
+              <div class="recommendation-info">
+                <h3 class="recommendation-info__title">WMNDFL : The&nbsp;Inspiration</h3>
+                <h4 class="recommendation-info__genre">Business</h4>
+                <span class="recommendation-info__price">$23.00</span>
+                <div class="recommendation-action">
+                  <button data-toggle="modal" class="recommendation-button hover-button">Купить</button>
+                  <div class="recommendation-icon">
+                    <svg width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+                      <path class="heart-icon"
+                        d="M17.2422 2.46484C15.3086 0.8125 12.4609 1.12891 10.668 2.95703L10 3.66016L9.29688 2.95703C7.53906 1.12891 4.65625 0.8125 2.72266 2.46484C0.507812 4.36328 0.402344 7.73828 2.37109 9.77734L9.19141 16.8086C9.61328 17.2656 10.3516 17.2656 10.7734 16.8086L17.5938 9.77734C19.5625 7.73828 19.457 4.36328 17.2422 2.46484Z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <!-- /. recommendation-info -->
+            </div>
+            <!-- /. recommendation-item -->
+
+            <!-- item-6 -->
+            <div class="recommendation-item">
+              <img class="recommendation-image" src="img/recommendation-6.png" alt="Recommended book">
+              <!-- /. recommendation-image -->
+              <div class="recommendation-info">
+                <h3 class="recommendation-info__title">Making Things&nbsp;Happen</h3>
+                <h4 class="recommendation-info__genre">Motivation</h4>
+                <span class="recommendation-info__price">$23.00</span>
+                <div class="recommendation-action">
+                  <button data-toggle="modal" class="recommendation-button hover-button">Купить</button>
+                  <div class="recommendation-icon">
+                    <svg width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+                      <path class="heart-icon"
+                        d="M17.2422 2.46484C15.3086 0.8125 12.4609 1.12891 10.668 2.95703L10 3.66016L9.29688 2.95703C7.53906 1.12891 4.65625 0.8125 2.72266 2.46484C0.507812 4.36328 0.402344 7.73828 2.37109 9.77734L9.19141 16.8086C9.61328 17.2656 10.3516 17.2656 10.7734 16.8086L17.5938 9.77734C19.5625 7.73828 19.457 4.36328 17.2422 2.46484Z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <!-- /. recommendation-info -->
+            </div>
+            <!-- /. recommendation-item -->
+          </div>
+          <!-- /.recommendation-cards -->
+          <div class="recommendation-more">
+            <a href="#" class="recommendation-more__link hover-bluelink">Больше рекомендаций</a>
+          </div>
+        </div>
+        <!-- /.recommendation -->
+
+        <div class="top">
+          <h2 class="offers__title offers__title-top">Топ Месяца</h2>
+          <div class="top-cards">
+            <div class="cards-wrapper">
+              <div class="top-item">
+                <img src="img/top-1.png" alt="Top book image" class="top-image">
+                <div class="top-info">
+                  <h3 class="top-info__title">Sprint : Solve,
+                    Test in 5 Days</h3>
+                  <span class="top-info__price">$23.00</span>
+                  <button data-toggle="modal"
+                    class="recommendation-button recommendation-button--small hover-button">Купить</button>
+                </div>
+              </div>
+              <!-- /.top-item -->
+
+              <div class="top-item">
+                <img src="img/top-2.png" alt="Top book image" class="top-image">
+                <div class="top-info">
+                  <h3 class="top-info__title">Hacking Growth
+                    Break Problem</h3>
+                  <span class="top-info__price">$23.00</span>
+                  <button data-toggle="modal"
+                    class="recommendation-button recommendation-button--small hover-button">Купить</button>
+                </div>
+              </div>
+              <!-- /.top-item -->
+
+              <div class="top-item">
+                <img src="img/top-3.png" alt="Top book image" class="top-image">
+                <div class="top-info">
+                  <h3 class="top-info__title">Very Nice a
+                    Novel by Mercy</h3>
+                  <span class="top-info__price">$23.00</span>
+                  <button data-toggle="modal"
+                    class="recommendation-button recommendation-button--small hover-button">Купить</button>
+                </div>
+              </div>
+              <!-- /.top-item -->
+
+              <div class="top-item">
+                <img src="img/top-4.png" alt="Top book image" class="top-image">
+                <div class="top-info">
+                  <h3 class="top-info__title">Hooked : How&nbsp;to
+                    Build Products</h3>
+                  <span class="top-info__price">$23.00</span>
+                  <button data-toggle="modal"
+                    class="recommendation-button recommendation-button--small hover-button">Купить</button>
+                </div>
+              </div>
+              <!-- /.top-item -->
+            </div>
+            <!-- /.cards-wrapper -->
+            <span class="top-line"></span>
+            <a href="#" class="top__best-books hover-bluelink">лучшие книги</a>
+          </div>
+          <!-- /.top-cards -->
+        </div>
+        <!-- /.top -->
+      </div>
+      <!-- /.offers-wrapper -->
+
+    </div>
+  </section>
+  <!-- /.offers -->
+
+  <section class="slider">
+    <span class="top-line top-line--long"></span>
+    <div class="section-container">
+      <div class="swiper swiper-slider">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="item-container">
+              <div class="slider__item">
+                <img src="img/presentation-icon.svg" alt="Slider icon" class="slider__image">
+                <h2 class="slider__title">Бизнес & Финансы</h2>
+                <span class="slider__info">Книги про мир бизнеса</span>
+              </div>
+              <div class="slider__item">
+                <img src="img/diamond-icon.svg" alt="Slider icon" class="slider__image">
+                <h2 class="slider__title">Самомотивация</h2>
+                <span class="slider__info">Книги о мотивации</span>
+              </div>
+              <div class="slider__item">
+                <img src="img/book-icon.svg" alt="Slider icon" class="slider__image">
+                <h2 class="slider__title">Романы Теленовеллы</h2>
+                <span class="slider__info">Книги с крутыми историями</span>
+              </div>
+              <div class="slider__item">
+                <img src="img/square-icon.svg" alt="Slider icon" class="slider__image">
+                <h2 class="slider__title">Навыки будущего</h2>
+                <span class="slider__info">Книги для самоподготовки</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="item-container">
+              <div class="slider__item">
+                <img src="img/translate-icon.svg" alt="Slider icon" class="slider__image">
+                <h2 class="slider__title">Развитие</h2>
+                <span class="slider__info">Книги о языках</span>
+              </div>
+              <div class="slider__item">
+                <img src="img/learning-icon.svg" alt="Slider icon" class="slider__image">
+                <h2 class="slider__title">Наука</h2>
+                <span class="slider__info">Книги для обучения</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- /. item-wrapper -->
+        </div>
+      </div>
+      <!-- /. swiper -->
+
+      <div class="slider__button slider__button--prev"></div>
+      <div class="slider__button slider__button--next"></div>
+
+    </div>
+    <!-- /. section-container -->
+  </section>
+  <!-- /. slider -->
+
+  <section class="unreleased">
+    <div class="container">
+      <h2 class="unreleased__title">Неизданные книги</h2>
+
+      <div class="swiper unreleased-swiper">
+        <div class="swiper-wrapper unreleased-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img class="unreleased__image" src="img/unreleased-1.png" alt="Unreleased image">
+          </div>
+          <div class="swiper-slide"><img class="unreleased__image" src="img/unreleased-2.png" alt="Unreleased image">
+          </div>
+          <div class="swiper-slide"><img class="unreleased__image" src="img/unreleased-3.png" alt="Unreleased image">
+          </div>
+          <div class="swiper-slide"><img class="unreleased__image" src="img/unreleased-4.png" alt="Unreleased image">
+          </div>
+          <div class="swiper-slide"><img class="unreleased__image" src="img/unreleased-5.png" alt="Unreleased image">
+          </div>
+          <div class="swiper-slide"><img class="unreleased__image" src="img/unreleased-6.PNG" alt="Unreleased image">
+          </div>
+          <div class="swiper-slide"><img class="unreleased__image" src="img/unreleased-7.PNG" alt="Unreleased image">
+          </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="unreleased__button unreleased__button--prev">
+          <svg class="arrow-prev" width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M9.0625 12.9062C9.375 12.5938 9.34375 12.125 9.0625 11.8125L5.28125 8.25H14.25C14.6875 8.25 15 7.90625 15 7.5V6.5C15 6.0625 14.6875 5.75 14.25 5.75H5.28125L9.0625 2.15625C9.34375 1.84375 9.34375 1.375 9.0625 1.0625L8.375 0.375C8.0625 0.09375 7.59375 0.09375 7.3125 0.375L1.21875 6.46875C0.9375 6.75 0.9375 7.21875 1.21875 7.53125L7.3125 13.5938C7.59375 13.875 8.0625 13.875 8.375 13.5938L9.0625 12.9062Z" />
+          </svg>
+
+        </div>
+        <div class="unreleased__button unreleased__button--next">
+          <svg class="arrow-next" width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M6.22321 1.09375C5.91071 1.40625 5.94196 1.875 6.22321 2.1875L10.0045 5.75H1.03571C0.598206 5.75 0.285706 6.09375 0.285706 6.5V7.5C0.285706 7.9375 0.598206 8.25 1.03571 8.25H10.0045L6.22321 11.8438C5.94196 12.1562 5.94196 12.625 6.22321 12.9375L6.91071 13.625C7.22321 13.9062 7.69196 13.9062 7.97321 13.625L14.067 7.53125C14.3482 7.25 14.3482 6.78125 14.067 6.46875L7.97321 0.40625C7.69196 0.125 7.22321 0.125 6.91071 0.40625L6.22321 1.09375Z" />
+          </svg>
+        </div>
+
+      </div>
+      <!-- /. unreleased-swiper -->
+    </div>
+    <!-- /. container -->
+  </section>
+  <!-- /.unreleased -->
+
+  <section class="history">
+    <div class="history-container">
+      <div class="history-top">
+        <h2 class="history__title">История Автора</h2>
+        <p class="history__text">Это раздел авторского рассказа. Каждую неделю мы стараемся рассказать вам историю
+          писателя. Расскажем всем о&nbsp;закулисье их книг.</p>
+      </div>
+      <!-- /.history-top -->
+      <div class="video history__main-video" id="player">
+        <img src="img/main-video.PNG" alt="Video" class="video-image">
+        <script src="https://www.youtube.com/iframe_api"></script>
+        <img src="img/play.svg" alt="Video icon" class="video-icon">
+      </div>
+      <!-- /.history__main-video -->
+      <div class="video-wrapper">
+        <div class="video-block">
+          <div class="video-play" id="playerSmall_1">
+            <img src="img/video-small-1.png" alt="Video" class="video-image">
+            <script src="https://www.youtube.com/iframe_api"></script>
+            <img src="img/play-small.svg" alt="Video icon" class="video-icon-1">
+          </div>
+          <!-- /. video-play -->
+          <div class="video-bottom">
+            <div class="video-text">
+              <h2 class="video-text__name">Emelda Scandroot</h2>
+              <h3 class="video-text__description">Author of Books Tittle</h3>
+            </div>
+            <div class="video-bookmark">
+              <svg class="bookmark-icon" width="14" height="19" viewBox="0 0 14 19" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.0625 0.25H1.9375C0.988281 0.25 0.25 1.02344 0.25 1.9375V18.25L7 14.3125L13.75 18.25V1.9375C13.75 1.02344 12.9766 0.25 12.0625 0.25ZM12.0625 15.332L7 12.3789L1.9375 15.332V2.14844C1.9375 2.04297 2.00781 1.9375 2.14844 1.9375H11.8516C11.957 1.9375 12.0625 2.04297 12.0625 2.14844V15.332Z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- /. video-block -->
+
+        <div class="video-block">
+          <div class="video-play" id="playerSmall_2">
+            <img src="img/video-small-2.png" alt="Video" class="video-image">
+            <script src="https://www.youtube.com/iframe_api"></script>
+            <img src="img/play-small.svg" alt="Video icon" class="video-icon-2">
+          </div>
+          <!-- /. video-play -->
+          <div class="video-bottom">
+            <div class="video-text">
+              <h2 class="video-text__name">Mar Rueda</h2>
+              <h3 class="video-text__description">Author of Books Tittle</h3>
+            </div>
+            <div class="video-bookmark">
+              <svg class="bookmark-icon" width="14" height="19" viewBox="0 0 14 19" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.0625 0.25H1.9375C0.988281 0.25 0.25 1.02344 0.25 1.9375V18.25L7 14.3125L13.75 18.25V1.9375C13.75 1.02344 12.9766 0.25 12.0625 0.25ZM12.0625 15.332L7 12.3789L1.9375 15.332V2.14844C1.9375 2.04297 2.00781 1.9375 2.14844 1.9375H11.8516C11.957 1.9375 12.0625 2.04297 12.0625 2.14844V15.332Z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- /. video-block -->
+
+        <div class="video-block">
+          <div class="video-play" id="playerSmall_3">
+            <img src="img/video-small-3.png" alt="Video" class="video-image">
+            <script src="https://www.youtube.com/iframe_api"></script>
+            <img src="img/play-small.svg" alt="Video icon" class="video-icon-3">
+          </div>
+          <!-- /. video-play -->
+          <div class="video-bottom">
+            <div class="video-text">
+              <h2 class="video-text__name">Nembo Lukeni</h2>
+              <h3 class="video-text__description">Author of Books Tittle</h3>
+            </div>
+            <div class="video-bookmark">
+              <svg class="bookmark-icon" width="14" height="19" viewBox="0 0 14 19" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.0625 0.25H1.9375C0.988281 0.25 0.25 1.02344 0.25 1.9375V18.25L7 14.3125L13.75 18.25V1.9375C13.75 1.02344 12.9766 0.25 12.0625 0.25ZM12.0625 15.332L7 12.3789L1.9375 15.332V2.14844C1.9375 2.04297 2.00781 1.9375 2.14844 1.9375H11.8516C11.957 1.9375 12.0625 2.04297 12.0625 2.14844V15.332Z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- /. video-block -->
+
+      </div>
+      <!-- /.video-wrapper -->
+    </div>
+    <!-- /.history-container -->
+  </section>
+  <!-- /.history -->
+
+  <section class="partners">
+    <div class="container">
+      <div class="partners-wrapper">
+        <h3 class="partners__title">Некоторые из издателей, с которыми мы сотрудничали
+        </h3>
+        <div class="logo-wrapper">
+          <img src="img/slack.svg" alt="Logo" class="logo-icon">
+          <img src="img/netflix.svg" alt="Logo" class="logo-icon">
+          <img src="img/fitbit.svg" alt="Logo" class="logo-icon">
+          <img src="img/google.svg" alt="Logo" class="logo-icon">
+          <img src="img/airbnb.svg" alt="Logo" class="logo-icon">
+          <img src="img/uber.svg" alt="Logo" class="logo-icon">
+          <img src="img/netflix.svg" alt="Logo" class="logo-icon">
+          <img src="img/airbnb.svg" alt="Logo" class="logo-icon">
+          <img src="img/slack.svg" alt="Logo" class="logo-icon">
+          <img src="img/uber.svg" alt="Logo" class="logo-icon">
+          <img src="img/fitbit.svg" alt="Logo" class="logo-icon">
+          <img src="img/google.svg" alt="Logo" class="logo-icon">
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.partners -->
+
+  <section class="blog">
+    <div class="container">
+      <div class="blog-wrapper">
+        <div class="blog-top">
+          <h2 class="blog__title">Ehya Блог</h2>
+          <a class="blog__link hover-buttonwhite" href="#">Все Блоги</a>
+        </div>
+        <div class="blog-content">
+          <div class="blog-content__main">
+            <img src="img/content-main.png" alt="Blog main image" class="image-main">
+            <div class="main-info-container">
+              <h2 class="blog-content__title">Success Steps For Your Business Life</h2>
+              <p class="blog-content__text">This is the author story section. Every week we try to give you the story of
+                book writer. Tell all of you the behind the scene of their books.</p>
+            </div>
+          </div>
+          <!-- /. blog-content__main -->
+          <div class="small-wrapper">
+            <div class="blog-content__small">
+              <img class="image-small" src="img/blog-small-1.png" alt="Blog small image">
+              <div class="blog-content__info">
+                <span class="blog-content__data">23 МАРТА 2020</span>
+                <h3 class="small-title">29 Motivational Quotes
+                  for&nbsp;Work Environments</h3>
+                <a href="#" class="blog-content__read hover-bluelink">читать</a>
+              </div>
+            </div>
+            <div class="blog-content__small">
+              <img class="image-small" src="img/blog-small-2.png" alt="Blog small image">
+              <div class="blog-content__info">
+                <span class="blog-content__data">28 МАРТА 2020</span>
+                <h3 class="small-title">Learn To Love Growth
+                  and&nbsp;You Will Be A Success</h3>
+                <a href="#" class="blog-content__read hover-bluelink">читать</a>
+              </div>
+            </div>
+            <div class="blog-content__small">
+              <img class="image-small" src="img/blog-small-3.png" alt="Blog small image">
+              <div class="blog-content__info">
+                <span class="blog-content__data">28 МАРТА 2020</span>
+                <h3 class="small-title">Motivation How To Build
+                  Trust at your Work</h3>
+                <a href="#" class="blog-content__read hover-bluelink">читать</a>
+              </div>
+            </div>
+          </div>
+          <!-- /. small-wrapper -->
+        </div>
+        <!-- /.blog-content -->
+        <a class="blog__link blog__link--bottom" href="#">Все Блоги</a>
+      </div>
+      <!-- /.blog-wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.blog -->
+
+  <section class="registration">
+    <div class="container registration-container">
+      <div class="registration-wrapper">
+        <h2 class="registration__title">Будь первым, кто узнает о&nbsp;наших акциях</h2>
+
+        <form action="./thankyou.html" class="subscribe registration__send form">
+          <input type="email" class="input subscribe__input" placeholder="Ваш Emaill" name="email" required />
+          <img src="img/mail-icon.svg" alt="Mail icon" class="subscribe__icon">
+          <button class="subscribe__button">Регистрация</button>
+        </form>
+      </div>
+      <!-- /.registration-wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.registration -->
+
+  <section class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="ehya-block">
+          <a href="./index.html" class="ehya-block__logo">
+            <img src="img/Logo.svg" alt="Logo: Ehya" class="ehya-block__img hover-image">
+          </a>
+          <p class="ehya-block__text">Создайте современный и креативный веб-сайт с crealand</p>
+          <div class="ehya-block-icons">
+            <a href="https://www.google.com" target="_blank" class="icon-link">
+              <img src="img/google-icon.svg" alt="Footer icon" class="hover-image">
+            </a>
+            <a href="https://twitter.com" target="_blank" class="icon-link">
+              <img src="img/twitter-icon.svg" alt="Footer icon" class="hover-image">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="icon-link">
+              <img src="img/instagram-icon.svg" alt="Footer icon" class="hover-image">
+            </a>
+            <a href="https://ru.linkedin.com" target="_blank" class="icon-link">
+              <img src="img/linkedin-icon.svg" alt="Footer icon" class="hover-image">
+            </a>
+          </div>
+        </div>
+        <!-- /.ehya-block -->
+
+        <div class="footer__content footer__products">
+          <h3 class="footer__title">Продукт</h3>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Лэндинг</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Функции</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Документация</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Скидки</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Расценки</a></li>
+          </ul>
+        </div>
+        <!-- /.footer__products -->
+
+        <div class="footer__content footer__services">
+          <h3 class="footer__title">Сервисы</h3>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Документация</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Дизайн</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Темы</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Илюстрации</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">UI Kit</a></li>
+          </ul>
+        </div>
+        <!-- /.footer__services -->
+
+        <div class="footer__content footer__company">
+          <h3 class="footer__title">Компания</h3>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link hover-link">О нас</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Условия</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Privacy Policy</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Careers</a></li>
+          </ul>
+        </div>
+        <!-- /.footer__company -->
+
+        <div class="footer__content footer__more">
+          <h3 class="footer__title">Еще...</h3>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Документация</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Лицензия</a></li>
+            <li class="footer__item"><a href="#" class="footer__link hover-link">Изменения</a></li>
+          </ul>
+        </div>
+        <!-- /.footer__more -->
+      </div>
+      <!-- /.footer-wrapper -->
+      <div class="footer-bottom">
+        <img src="img/footer-bottom-icon.svg" alt="Bottom icon" class="footer-bottom__icon">
+        <div class="footer-bottom__text">Copyright © 2019. Crafted with love.</div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.footer -->
+
+  <a class="button-up" href="#"><img src="img/up-button.svg" alt="up button" class="up-icon"></a>
+
+  <div class="modal">
+    <div class="modal__overlay"></div>
+    <!-- /.modal__overlay -->
+    <div class="modal__dialog">
+      <a href="#" class="modal__close">
+        <img src="img/close.svg" alt="icon: close">
+      </a>
+      <h3 class="modal__title">Оформление</h3>
+      <form action="./thankyou.html" class="modal__form form">
+        <input type="text" class="input modal__input" placeholder="Имя*" name="name" minlength="2" required>
+        <input type="tel" class="input modal__input" placeholder="Телефон*" name="phone" id="phoneModal" minlength="18"
+          required>
+        <input type="email" class="input modal__input" placeholder="Email*" name="emailModal" required>
+        <div class="modal__form-wrapper">
+          <button class="button navbar-button hover-buttonwhite" type="submit">Отправить</button>
+          <span class="modal__info">* Обязательные поля</span>
+        </div>
+      </form>
+    </div>
+    <!-- /.modal__dialog -->
+  </div>
+  <!-- /.modal -->
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.mask.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
